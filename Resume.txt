@@ -1,0 +1,70 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+namespace ConsoleApp
+{
+
+class GreetingProgram
+{
+    static void Main(string[] args)
+    {
+        Console.Write("-----------C# RESUME ACT.1-----------\n\n");
+        
+        Console.Write ("Name: "); // Name
+        string name = Console.ReadLine(); 
+        Console.Write ("Present Address: "); // Pesent Address
+        string presentAddress = Console.ReadLine(); 
+        Console.Write ("Permanent Address: "); // Permanent Adress
+        string permanentAddress = Console.ReadLine();
+        Console.Write ("Date of Birth: "); // Birth
+        string birthDate = Console.ReadLine();
+        
+        Console.Write ("Religion: "); // Religion
+        string religion = Console.ReadLine();
+        Console.Write ("Age: "); // Age
+        string age = Console.ReadLine();
+        Console.Write ("Weight: "); // Weight
+        string weight = Console.ReadLine();
+        Console.Write ("Height: "); // Height
+        string height = Console.ReadLine(); // Height
+        
+        Console.Write ("Civil Status: "); // Civil Status
+        string civilStatus = Console.ReadLine(); 
+        Console.Write ("Citizenship: "); // citezenship
+        string citizentship = Console.ReadLine(); 
+        Console.Write ("Place of Birth: ");// PLace of birth
+        string placeBirth = Console.ReadLine(); 
+        Console.Write ("Name of Father: "); // Father name
+        string nameFather = Console.ReadLine(); 
+        Console.Write ("Name of Mother: "); // Mother name
+        string nameMother = Console.ReadLine(); 
+        Console.Write ("Address: "); // address
+        string address = Console.ReadLine(); 
+        Console.Write ("Language of Dialects Spoken: "); // dialect spoken
+        string LDS = Console.ReadLine(); 
+        Console.Write ("Person to be notified in Case of Emergency: "); 
+        string personNotif = Console.ReadLine(); 
+        
+        Console.WriteLine();
+        Console.WriteLine("\n\n-----------PERSONAL INFORMATION-----------\n");
+        
+        Console.WriteLine("Name: " + name +
+                             "\nPresent Address: " + presentAddress +
+                             "\nPermanent Address: " + permanentAddress +
+                             "\nDate of Birth: " + birthDate + "           Religion: " + religion +
+                             "\nCivil Status: " + civilStatus + "           Age: " + age +
+                             "\nCitizenship: " + citizentship + "           Weight: " + weight +
+                             "\nPlace of Birth: " + placeBirth + "           Height: " + height +
+                             "\nName of Father: " + nameFather +
+                             "\nName of Mother: " + nameMother +
+                             "\nAddress: " + address +
+                             "\nLanguage of Dialects Spoken: " + LDS +
+                             "\nPerson to be notified in Case of Emergency: " + personNotif);
+        
+        Console.Write("\nPress any key to exit...");
+        Console.ReadKey();
+        
+    }
+}
+} // 
